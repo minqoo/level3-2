@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <title>しま農園</title>
+    <meta name="description" content="" />
+  </head>
+
+
+<body>
+  <!-- header-nav -->
+  <nav id="nav">
+    <div class="inner">
+    <div class="nav-list-wrapper">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">
+            <span class="nav-ja">当園について</span>
+            <span class="nav-en">ABOUT</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">
+            <span class="nav-ja">お知らせ</span>
+            <span class="nav-en">NEWS</span>
+          </a>
+        </li>
+        <li><img class="nav-logo" src="img/header-logo.png" alt="logo" /></li>
+        <li class="nav-item">
+          <a class="nav-link" href="store.html">
+            <span class="nav-ja">品目・ストア</span>
+            <span class="nav-en">STORE</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <span class="nav-ja">お問い合わせ</span>
+            <span class="nav-en">CONTANT</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+    <a href="index.html"><img class="nav-logo-sp" src="img/header-logo.png" alt="logo" /></a>
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown" />
+      <label id="nav-open" for="nav-input"><span class="nav-line"></span><span class="menu-name">MENU</span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <ul id="nav-content">
+        <li class="drawer-item"><a class="drawer-link" href="about.html">当園について</a></li>
+        <li class="drawer-item"><a class="drawer-link" href="news.html">お知らせ</a></li>
+        <li class="drawer-item"><a class="drawer-link" href="store.html">品目・ストア</a></li>
+        <li class="drawer-item"><a class="drawer-link" href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <!-- /header-nav -->
+
+  <!-- contact -->
+  <div id="contact">
+    <div class="contact-wrapper">
+      <div class="contact-inner">
+        <div class="section-ttl-wrapper">
+          <img class="section-ttl-icon" src="img/h-icon-5.png" alt="icon" />
+          <h2 class="section-ttl">お問い合わせ</h2>
+          <img class="section-ttl-line" src="img/heading-bg.png" alt="line" />
+          <p class="section-ttl-txt">
+            どんなことでも<br class="brsp" />お気軽にお問い合わせください。
+          </p>
+        </div>
+        <div class="form-wrapper">
+          <form class="form" action="後で指定">
+            <dl class="form-item">
+              <dt class="label-ttl"><label for="name">お名前</label></dt>
+              <dd class="label-data">
+                <input class="input-fix data-mt" type="text" id="name" name="name" />
+              </dd>
+            </dl>
+            <dl class="form-item">
+              <dt class="label-ttl">
+                <label for="email">メールアドレス</label>
+              </dt>
+              <dd class="label-data">
+                <input class="input-fix data-mt" type="email" id="email" name="email" />
+              </dd>
+            </dl>
+            <dl class="form-item radio-content">
+              <dt class="label-ttl"><label for="inquiry">お問い合わせ内容</label></dt>
+              <dd class="label-data">
+                <label><input class="radio-fix" type="radio" name="inquiry" id="inquiry"><span>親子イベントについて</span></label><br>
+                <label><input class="radio-fix" type="radio" name="inquiry" checked><span>ストアについて</span></label><br>
+                <label><input class="radio-fix" type="radio" name="inquiry"><span>その他</span></label><br>
+              </dd>
+            </dl>
+              <div class="form-item textarea-content">
+                <label class="label-ttl" for="texts">備考欄</label><br>
+                <textarea class="textarea-fix data-mt" name="texts" id="texts"></textarea>
+              </div>
+          </form>
+        </div>
+          <div class="btn-wrapper">
+            <input type="submit" value="送信" class="btn-link">
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <footer id="footer">
+    <img src="img/footer-bg.png" alt="" class="bridge-footer" />
+    <div class="footer-main-wrapper">
+      <div class="footer-logo">
+        <img src="img/header-logo.png" alt="logo" />
+      </div>
+      <p class="footer-adress">〒123-4567 〇〇県〇〇郡〇〇村831</p>
+      <p class="footer-number">TEL:098-7654-3210 FAX:123-4567-831</p>
+      <div class="footer-nav-wrapper">
+        <div class="payment"><a href="#">配送・お支払いについて</a></div>
+        <div class="policy"><a href="#">プライバシーポリシー</a></div>
+        <div class="contact"><a href="#">お問い合わせ</a></div>
+      </div>
+    </div>
+    <div class="footer-secondary-wrapper">
+      <p class="copy-right">Copyright ©︎ iSara All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
